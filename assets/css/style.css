@@ -154,6 +154,35 @@ a:hover {
     flex-direction: column
 }
 
+@media only screen and (min-width: 1600px) {
+    .document-card {
+        max-width: 1200px
+    }
+}
+@media only screen and (max-width: 1599px) {
+    .document-card {
+        max-width: 1200px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .document-card {
+        max-width: 960px
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .document-card {
+        max-width: 550px
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .document-card {
+        max-width: 380px
+    }
+}
+
 @media only screen and (max-width: 380px) {
     .document-card {
         max-width: 320px;
